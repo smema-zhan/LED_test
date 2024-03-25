@@ -4,7 +4,9 @@
   },
   "workspaces": {
     "${workspaceFolder}\\led_test\\EWARM\\Project.eww": {
-      "configs": {},
+      "configs": {
+        "${workspaceFolder}\\led_test\\EWARM\\led_test.ewp": "led_test"
+      },
       "selected": {
         "path": "${workspaceFolder}\\led_test\\EWARM\\led_test.ewp"
       }

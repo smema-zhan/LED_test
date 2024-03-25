@@ -1,6 +1,11 @@
 ﻿d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\led_test.pbd
+d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\dma.pbi
 d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\gpio.pbi
 d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\main.pbi
+d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\stm32f1xx_hal_msp.pbi
+d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\stm32f1xx_it.pbi
+d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\usart.pbi
+d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\system_stm32f1xx.pbi
 d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\stm32f1xx_hal.pbi
 d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\stm32f1xx_hal_cortex.pbi
 d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\stm32f1xx_hal_dma.pbi
@@ -9,11 +14,9 @@ d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\stm32f1xx_hal_fla
 d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\stm32f1xx_hal_flash_ex.pbi
 d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\stm32f1xx_hal_gpio.pbi
 d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\stm32f1xx_hal_gpio_ex.pbi
-d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\stm32f1xx_hal_msp.pbi
 d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\stm32f1xx_hal_pwr.pbi
 d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\stm32f1xx_hal_rcc.pbi
 d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\stm32f1xx_hal_rcc_ex.pbi
 d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\stm32f1xx_hal_tim.pbi
 d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\stm32f1xx_hal_tim_ex.pbi
-d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\stm32f1xx_it.pbi
-d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\system_stm32f1xx.pbi
+d:\Users\zhan.xie\Desktop\LED_test\led_test\EWARM\led_test\Obj\stm32f1xx_hal_uart.pbi
