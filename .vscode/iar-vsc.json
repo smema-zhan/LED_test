@@ -1,0 +1,16 @@
+{
+  "workspace": {
+    "path": "${workspaceFolder}\\led_test\\EWARM\\Project.eww"
+  },
+  "workspaces": {
+    "${workspaceFolder}\\led_test\\EWARM\\Project.eww": {
+      "configs": {},
+      "selected": {
+        "path": "${workspaceFolder}\\led_test\\EWARM\\led_test.ewp"
+      }
+    }
+  },
+  "workbench": {
+    "path": "D:\\IAR"
+  }
+}
