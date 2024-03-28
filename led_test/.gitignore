@@ -1,0 +1,6 @@
+/.vscode
+/.svn
+/EWARM/settings
+/EWARM/led_test
+/EWARM/led_test.dep
+/EWARM/led_test.ewt
