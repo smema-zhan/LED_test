@@ -6,32 +6,31 @@
 static uint8_t led_flag = 0;
 static uint8_t continue_flag = 0;
 
-void LED_control(void)
+void ProcessRecvCmd(uint8_t *usart_rx_buffer, uint8_t *usart_tx_buffer)
 {
     if (strcmp((char *)usart_rx_buffer, "start") == 0)
     {
+        if (led_flag == 1)
+            strcpy((char *)usart_tx_buffer, "LED has been started");
+        else
+            strcpy((char *)usart_tx_buffer, "LED start");
         led_flag = 1;
-        HAL_UART_Transmit(&USER_UART, "LED start", sizeof("LED start"), 0xffff);
-        memset(usart_rx_buffer, 0x00, USART_BUFFER_SIZE);
-        dma_recv_len = 0;
-        UartFlag = 0;
     }
     else if (strcmp((char *)usart_rx_buffer, "stop") == 0)
     {
+        if (led_flag == 0)
+            strcpy((char *)usart_tx_buffer, "LED has been stopped");
+        else
+            strcpy((char *)usart_tx_buffer, "LED stop");
         led_flag = 0;
-        HAL_UART_Transmit(&USER_UART, "LED stop", sizeof("LED stop"), 0xffff);
-        memset(usart_rx_buffer, 0x00, USART_BUFFER_SIZE);
-        dma_recv_len = 0;
-        UartFlag = 0;
     }
-    else if (dma_recv_len > 0)
-    {
-        led_flag = 0;
-        HAL_UART_Transmit(&USER_UART, "unknow command", sizeof("unknow command"), 0xffff);
-        memset(usart_rx_buffer, 0x00, USART_BUFFER_SIZE);
-        dma_recv_len = 0;
-        UartFlag = 0;
-    }
+    else
+        strcpy((char *)usart_tx_buffer, "Unknow command");
+}
+
+void LED_control(void)
+{
+
     if ((uint8_t)HAL_GPIO_ReadPin(KEY1_GPIO_Port, KEY1_Pin) == 1 && led_flag == 1)
     {
         HAL_GPIO_WritePin(LED0_GPIO_Port, LED0_Pin, GPIO_PIN_SET);
